@@ -20,3 +20,14 @@ This project uses an ESP32, an SSD1306 OLED display, and a push button to recrea
 ## ESP32 not detected?
 1. Try a different USB cable/port.
 2. Check if the correct COM Port is selected.
+
+# Software Requirements
+1. Arduino IDE
+2. ESP32 Board Package
+3. (Add this URL in Board Manager:)
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+
+# Libraries to Install:
+1. Adafruit GFX Library
+2. Adafruit SSD1306
+3. ESP8266 and ESP32 OLED Driver for SSD1306

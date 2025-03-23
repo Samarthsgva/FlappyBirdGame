@@ -8,3 +8,15 @@ This project uses an ESP32, an SSD1306 OLED display, and a push button to recrea
 3. Push Button 
 4. Buzzer (Optional for sound effects)
 5. Breadboard & Jumper Wires
+   
+##Troubleshooting
+🛑 Common Issues & Fixes
+# OLED screen stays blank?
+1. Check wiring (SDA, SCL connections).
+2. Try changing the I2C address (default: 0x3C).
+#Compilation Errors?
+1. Ensure all required libraries are installed.
+2. Make sure .h files are in the same directory.
+#ESP32 not detected?
+1. Try a different USB cable/port.
+2. Check if the correct COM Port is selected.
